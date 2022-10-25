@@ -51,10 +51,11 @@ table {
     ========================== */
 body {
     background-color:#aad4cf;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
     background-color: #d4e9e7;
-    width: 1025px;
+    width: 1024px;
     margin: 0 auto;
 }

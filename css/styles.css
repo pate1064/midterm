@@ -6,12 +6,12 @@ body{
     background-color: #d4e9e7;
     width: 1024px;
     margin: 0 auto;
-	display: block;
+	
 }
 h1{
 	font-weight: normal;
 	position: absolute;
-	top: 25%;
+	top: 27%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 68px;

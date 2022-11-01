@@ -1,22 +1,66 @@
-body{
-    background-color: #aad4cf;
-    font-family: Arial, Helvetica, sans-serif;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* =========================== 
+          MY STYLES |   |
+    ========================== */
+body {
+    background-color:#aad4cf;
+}
+
 .container{
     background-color: #d4e9e7;
     width: 1024px;
     margin: 0 auto;
-	
-}
-h1{
-	font-weight: normal;
-	position: absolute;
-	top: 27%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 68px;
-	color: white;
-	margin: 0% auto ;
+    display: block;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: narrow;
 }
 
 .img_1{
@@ -26,20 +70,30 @@ h1{
 	margin: 0% auto;
 }
 
+h1{
+	position: absolute;
+	top: 24.7%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 68px;
+	color: white;
+	margin: 0% auto ;
+}
 .nav {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 25px;
+    margin-top: 20px;
     float: none;
     position: absolute;
-    top: 38%;
+    top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
 } 
 
 .nav li {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
     border-right: 2px solid black;
     display: inline-block;
     padding: 10px 100px;
@@ -49,12 +103,17 @@ h1{
 
 .nav li:last-child {
     border-right: 0;
+    transform: translate(+15%);
+}
+.nav li:first-child {
+    transform: translate(-15%);
 }
 
 ul li a {
     text-decoration: none;
     color: #000;
 }
+
 h2{
 	margin-left: 10pt;
     font-size: 40pt;
@@ -66,103 +125,105 @@ h2{
     float: left;
     height: 252pt;
     width: 248pt;
-    margin-top: -12pt;
+    margin-top: 10pt;
     margin-bottom: 39px ;
     margin-left: 11pt ;
     margin-right: 19pt ;
 }
-nav li:hover{
-    background-color: pink;
-}
-nav li:active{
-    background-color: #ffffff;
-}
 .content{
     text-align: justify;
-    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14.3pt;
     margin-right: 19pt;
     margin-left: 11pt;
-    margin-top: -20px;
+    margin-top: 10px;
 }
 h3{
     font-size: 31pt;
 	margin-left: 10pt;
+    margin-top: 25pt;
 }
 .facts{
-    font-size: 16pt;
+    padding-top: 12px;
+    padding-left: 32px;
+    font-size: 12pt;
+    list-style-type: disc;
+}
+.facts li{
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: narrow;
 }
 .form{
-        padding: 10px;
-        margin: 10px;
-}
-nav li:hover {
-    background-color: #6bc4f5;
-    color: black;
+    padding: 10px;
+    margin: 10px;
 }
 .name{
-    font-size: 19pt;
+font-size: 19pt;
 }
 .mail{
-    font-size: 19pt;
+font-size: 19pt;
 }
 .message{
-    font-size: 19pt;
+font-size: 19pt;
 }
 p{
-    font-size: 25pt;
+font-size: 25pt;
 }
 label{
-    font-size: 19pt;
-    display: inline-block;
-    margin-bottom: 5px;
+font-size: 19pt;
+display: inline-block;
+margin-bottom: 5px;
 }
 .br{
-    border-style: solid;
-    border-width: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+border-style: solid;
+border-width: 1px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 20px;
+padding-bottom: 10px;
 }
 input[type='text']{
-    box-sizing: border-box;
-    width: 100%;
-    height: 29px;
-    border: 1px solid black;
-    margin-bottom: 12px;
-    padding: 7px;
+box-sizing: border-box;
+width: 100%;
+height: 29px;
+border: 1px solid black;
+margin-bottom: 12px;
+padding: 7px;
 }
 button{
-    padding: 2px;
-    font-size: 13pt;
-    background-color:  #d4e9e7;
-    height: 38pt;
-    width: 54pt;
-    margin-bottom: 16px;
+padding: 2px;
+font-size: 13pt;
+background-color:  #d4e9e7;
+height: 38pt;
+width: 54pt;
+margin-bottom: 16px;
 }
 textarea{
-    box-sizing: border-box;
-    width: 100%;
-    height: 100px;
-    border: .5px solid black ;
-    margin-bottom: 2px;
+box-sizing: border-box;
+width: 100%;
+height: 100px;
+border: .5px solid black ;
+margin-bottom: 2px;
 }
 .radio{
-    margin-bottom: 10px;
+margin-bottom: 10px;
 }
 button:hover{
-    background-color: skyblue;
+background-color: skyblue;
 }
 main .container{
 margin-left: 430px;
 padding-top: 1px;
 }
 footer{
-    margin-bottom: 13px;
+margin-bottom: 13px;
 }
 #copy{
-    font-size: 13px;
-    text-align: right;
-    padding-bottom: 20px;
-    margin-right: 20px;
+font-size: 13px;
+text-align: right;
+padding-bottom: 20px;
+margin-right: 20px;
 }

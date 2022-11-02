@@ -166,15 +166,15 @@ h3{
 }
 label[for=name]{
     padding-top: 10pt;
-    font-size: 19pt;
+    font-size: 18pt;
 }
 label[for=email]{
     padding-top: 10pt;
-    font-size: 19pt;
+    font-size: 18pt;
 }
 label[for=message]{
     padding-top: 5pt;
-    font-size: 24pt;
+    font-size: 28pt;
 }
 .que{
     padding-top: 10pt;

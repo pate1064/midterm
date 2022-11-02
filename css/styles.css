@@ -61,7 +61,7 @@ body {
     display: block;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: narrow;
+    
 }
 /* end of common styles */
 /* Header */
@@ -88,9 +88,10 @@ h1{
     margin-top: 20px;
     float: none;
     position: absolute;
-    top: 36%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0% auto;
 } 
 
 .nav li {
@@ -137,7 +138,6 @@ h2{
     text-align: justify;
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: narrow;
     font-size: 14.3pt;
     margin-right: 19pt;
     margin-left: 11pt;
@@ -157,7 +157,6 @@ h3{
 .facts li{
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: narrow;
 }
 /* end of main content */
 /* contact */
@@ -165,17 +164,17 @@ h3{
     padding: 10px;
     margin: 10px;
 }
-.name{
+label[for=name]{
     padding-top: 10pt;
     font-size: 19pt;
 }
-.mail{
+label[for=email]{
     padding-top: 10pt;
     font-size: 19pt;
 }
-.message{
-    padding-top: 10pt;
-    font-size: 19pt;
+label[for=message]{
+    padding-top: 5pt;
+    font-size: 24pt;
 }
 .que{
     padding-top: 10pt;
@@ -228,7 +227,7 @@ footer{
 /* copyright */
 #copy{
     font-weight: 550;
-    padding-top: -10px;
+    padding-top: 0;
     font-size: 18px;
     text-align: right;
     padding-bottom: 20px;

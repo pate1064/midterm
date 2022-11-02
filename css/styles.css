@@ -92,21 +92,21 @@ h1{
 } 
 
 .nav li {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
     border-right: 2px solid black;
     display: inline-block;
     padding: 10px 100px;
     margin: auto;
-    font-size: 27px;
+    font-size: 28px;
 }
 
 .nav li:last-child {
     border-right: 0;
-    transform: translate(+15%);
+    transform: translate(+12%);
 }
-.nav li:first-child {
-    transform: translate(-15%);
+
+.nav li:nth-child(2) {
+    transform: translate(+10%);
 }
 
 ul li a {
@@ -141,7 +141,7 @@ h2{
     margin-top: 10px;
 }
 h3{
-    font-size: 31pt;
+    font-size: 26pt;
 	margin-left: 10pt;
     margin-top: 25pt;
 }
@@ -161,18 +161,23 @@ h3{
     margin: 10px;
 }
 .name{
+    padding-top: 10pt;
 font-size: 19pt;
 }
 .mail{
+    padding-top: 10pt;
 font-size: 19pt;
 }
 .message{
+    padding-top: 10pt;
 font-size: 19pt;
 }
 p{
-font-size: 25pt;
+    padding-top: 10pt;
+font-size: 22pt;
 }
 label{
+padding-top: 20pt;
 font-size: 19pt;
 display: inline-block;
 margin-bottom: 5px;
@@ -210,10 +215,7 @@ margin-bottom: 2px;
 }
 .radio{
 margin-bottom: 10px;
-}
-button:hover{
-background-color: skyblue;
-}
+}   
 main .container{
 margin-left: 430px;
 padding-top: 1px;
@@ -222,8 +224,10 @@ footer{
 margin-bottom: 13px;
 }
 #copy{
-font-size: 13px;
+font-weight: 550;
+padding-top: 13px;
+font-size: 18px;
 text-align: right;
 padding-bottom: 20px;
-margin-right: 20px;
+margin-right: 40px;
 }

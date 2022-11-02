@@ -49,6 +49,7 @@ table {
 /* =========================== 
           MY STYLES |   |
     ========================== */
+/* common styles */
 body {
     background-color:#aad4cf;
 }
@@ -62,7 +63,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: narrow;
 }
-
+/* end of common styles */
+/* Header */
 .img_1{
     display: block;
     margin-left: auto;
@@ -113,7 +115,8 @@ ul li a {
     text-decoration: none;
     color: #000;
 }
-
+/* end of header */
+/* main content */
 h2{
 	margin-left: 10pt;
     font-size: 40pt;
@@ -124,7 +127,7 @@ h2{
 .img_2{
     float: left;
     height: 252pt;
-    width: 248pt;
+    width: 246pt;
     margin-top: 10pt;
     margin-bottom: 39px ;
     margin-left: 11pt ;
@@ -132,9 +135,9 @@ h2{
 }
 .content{
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: narrow;
     font-size: 14.3pt;
     margin-right: 19pt;
     margin-left: 11pt;
@@ -156,6 +159,8 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     font-style: narrow;
 }
+/* end of main content */
+/* contact */
 .form{
     padding: 10px;
     margin: 10px;
@@ -172,12 +177,12 @@ h3{
     padding-top: 10pt;
     font-size: 19pt;
 }
-p{
+.que{
     padding-top: 10pt;
     font-size: 22pt;
 }
 label{
-    padding-top: 20pt;
+    padding-top: 27pt;
     font-size: 19pt;
     display: inline-block;
     margin-bottom: 5px;
@@ -216,14 +221,17 @@ textarea{
 .radio{
     margin-bottom: 10px;
 }   
+/* end of contact */
 footer{
     margin-bottom: 13px;
 }
+/* copyright */
 #copy{
     font-weight: 550;
-    padding-top: 13px;
+    padding-top: -10px;
     font-size: 18px;
     text-align: right;
     padding-bottom: 20px;
-    margin-right: 40px;
+    margin-right: 75px;
 }
+/* end of copyright */
